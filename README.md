@@ -58,6 +58,8 @@ NovaPay_Fraud/
 - Production-ready Dockerized architecture.
 - Advanced analytics using SHAP and dashboards.
 
+## Streamlit Deployment Link: https://novapayfrauddetection.streamlit.app/
+
 ## 📌 Recommendations
 - Periodically retrain model on fresh data.
 - Integrate into financial transaction pipelines for live fraud monitoring.
