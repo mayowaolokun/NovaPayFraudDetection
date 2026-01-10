@@ -101,7 +101,7 @@ elif menu == "📊 Dashboard":
 
     if submitted:
         try:
-            response = requests.post("http://127.0.0.1:8000/predict/", json=payload)
+            response = requests.post("https://novapay-api.onrender.com/predict/", json=payload)
             if response.status_code == 200:
                 result = response.json()
                 label = "🚨 Fraudulent" if result["is_fraud"] else "✔ Legitimate"
